@@ -3,3 +3,10 @@
 
 [progit-cn](https://www.progit.cn/)
 
+查看当前仓库状态
+```sh
+git status
+
+# 省略版
+git status -s
+```

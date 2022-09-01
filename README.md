@@ -36,3 +36,12 @@ git diff --staged
 git diff --cached 
 ```
 
+删除文件
+```sh
+# 删除git仓库文件，本地也不保留
+git rm [file]
+# 如果文件已经被提交
+git rm -f [file]
+# 删除git中文件，但是本地保留
+git rm --cached [file]
+```
